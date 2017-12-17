@@ -7,10 +7,7 @@ public class ImportApp {
 
     public static void main(String args[]) throws Exception {
         System.out.println("Start Import");
-
         Importer importer = new Importer();
-        importer.startImport();
-
         System.out.println("Finished import.");
         System.exit(0);
     }
